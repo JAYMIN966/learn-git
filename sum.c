@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int a=10;
-    int b=10;
-    int c = a+b;
-
-    printf("%d",c);
-    
+   for (int i=0;i<5;i++)
+       {for(int j=0;j<i;j++)
+           {printf("*");
+           }
+        printf(" ");
+       }
     return 0;
-    }
+}
